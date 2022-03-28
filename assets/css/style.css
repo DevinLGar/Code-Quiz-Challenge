@@ -60,3 +60,24 @@ h1 {
 #startButton:hover {
     background-color:  var(--secondary);
 }
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.answers button {
+    color: white;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.answers button:hover {
+    background-color: var(--secondary);
+}
